@@ -1,0 +1,18 @@
+{
+  "name": "nx-affected-projects-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to get affected projects in an Nx workspace",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist"
+  },
+  "keywords": ["github", "action", "nx", "affected"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  }
+}
